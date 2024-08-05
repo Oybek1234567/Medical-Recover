@@ -185,10 +185,10 @@ button {
 }
 /* Main */
 
-.section__count {
-    max-width: 1200px;
+.section__count ul{
     display: flex;
     justify-content: space-between;
+    max-width: 1200px;
     margin: 0 auto;
     margin-top: 80px;
 }
