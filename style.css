@@ -41,6 +41,8 @@ button {
 }
 /* Navbar */
 .navbar {
+    position: fixed;
+    z-index: 10;
     display: flex;
     align-items: center;
     padding-top: 30px;
@@ -70,12 +72,13 @@ button {
     border-radius: 5px;
     color: #fff;
     text-transform: uppercase;
+    cursor: pointer;
     border: none;
 }
 /* Header */
 
 .header {
-    padding-top: 93px;
+    padding-top: 240px;
 }
 .header__content {
     position: relative;
